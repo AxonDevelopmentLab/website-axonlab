@@ -1,0 +1,1 @@
+function languageChange(){alert("Sistema de mudança de linguagem ainda em desenvolvimento.")}function redirect(URL){window.location.href="https://axonlab.glitch.me/"+URL}function yourAccount(){return localStorage.getItem("account_token")?redirect("account/dashboard"):redirect("account")}
